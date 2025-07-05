@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SplitEasy - Split Bills, Stay Friends</title>
+    <title>Udhar - Split Bills, Stay Friends</title>
     <link rel="stylesheet" href="./styles.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
@@ -41,7 +41,7 @@
 <nav class="navbar">
   <div class="nav-container">
     <div class="nav-logo">
-      <span class="logo-text">SplitEasy</span>
+      <span class="logo-text">Udhar</span>
     </div>
 
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -57,7 +57,7 @@
       <li><a href="#use-cases">Use Cases</a></li>
       <li><a href="#testimonials">Reviews</a></li>
       <li><a href="#faq">FAQ</a></li>
-      <li><a href="#" class="nav-cta">Get Started</a></li>
+      <li><a href="./login.html" class="nav-cta">Login</a></li>
     </ul>
   </div>
 </nav>
@@ -67,12 +67,13 @@
         <div class="hero-container">
             <div class="hero-content">
                 <h1 class="hero-title">
-                    <span class="title-line">Split Bills</span>
-                    <span class="title-line">Stay Friends</span>
+                    <span class="title-line">Split expenses effortlessly with friends  & more.</span>
+                    <!-- <span class="title-line">Stay Friends</span> -->
                 </h1>
                 <p class="hero-subtitle">
-                    The easiest way to split bills with friends, family, and roommates. 
-                    Track expenses, settle debts, and keep everyone happy.
+                   Easiest way to split and settle bills — made <span style="color: #0bf063; font-weight: bold; text-shadow: 1px 1px 2px #084c3b;">
+  for Indians
+</span>
                 </p>
                 <div class="hero-buttons">
                     <button class="btn btn-primary">Start Splitting</button>
@@ -100,8 +101,8 @@
                             <div class="bill-item">
                                 <div class="bill-icon">🍕</div>
                                 <div class="bill-details">
-                                    <span class="bill-name">Pizza Night</span>
-                                    <span class="bill-amount">$45.00</span>
+                                    <span class="bill-name">Dine & Divide</span>
+                                    <span class="bill-amount">45.00</span>
                                 </div>
                                 <div class="bill-status">✓</div>
                             </div>
@@ -109,7 +110,7 @@
                                 <div class="bill-icon">🏠</div>
                                 <div class="bill-details">
                                     <span class="bill-name">Rent</span>
-                                    <span class="bill-amount">$1,200.00</span>
+                                    <span class="bill-amount">1,200.00</span>
                                 </div>
                                 <div class="bill-status pending">⏳</div>
                             </div>
@@ -117,15 +118,16 @@
                                 <div class="bill-icon">⚡</div>
                                 <div class="bill-details">
                                     <span class="bill-name">Utilities</span>
-                                    <span class="bill-amount">$85.00</span>
+                                    <span class="bill-amount">85.00</span>
                                 </div>
                                 <div class="bill-status">✓</div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="floating-elements">
-                    <div class="floating-card card-1">💰 $234 saved</div>
+                    <div class="floating-card card-1">💰 234 saved</div>
                     <div class="floating-card card-2">👥 5 friends</div>
                     <div class="floating-card card-3">📊 Analytics</div>
                 </div>
@@ -140,67 +142,92 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">Why Choose SplitEasy?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💰</div>
-                    <h3>Smart Splitting</h3>
-                    <p>Automatically calculate who owes what with our intelligent splitting algorithm</p>
-                    <div class="feature-animation">
-                        <div class="progress-bar">
-                            <div class="progress-fill"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📱</div>
-                    <h3>Mobile First</h3>
-                    <p>Designed for mobile with a beautiful, intuitive interface that works everywhere</p>
-                    <div class="feature-animation">
-                        <div class="pulse-circle"></div>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Secure & Private</h3>
-                    <p>Your financial data is encrypted and protected with bank-level security</p>
-                    <div class="feature-animation">
-                        <div class="security-shield">🛡️</div>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast</h3>
-                    <p>Split bills in seconds with our streamlined interface and smart shortcuts</p>
-                    <div class="feature-animation">
-                        <div class="lightning-bolt">⚡</div>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Smart Reminders</h3>
-                    <p>Gentle reminders that keep everyone on track without being annoying</p>
-                    <div class="feature-animation">
-                        <div class="notification-dot"></div>
-                    </div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h3>Expense Analytics</h3>
-                    <p>Track spending patterns and get insights into your group expenses</p>
-                    <div class="feature-animation">
-                        <div class="chart-bars">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Features Section -->
+<section id="features" class="features">
+  <div class="container">
+    <h2 class="section-title">Why Choose Udhar?</h2>
+    <div class="features-grid">
+      
+      <!-- Smart Splitting -->
+      <div class="feature-card">
+        <div class="feature-icon">💰</div>
+        <h3>Smart Splitting</h3>
+        <p>Automatically calculate who owes what with our intelligent splitting algorithm</p>
+        <div class="feature-animation">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
         </div>
-    </section>
+      </div>
+
+      <!-- Mobile First
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Mobile First</h3>
+        <p>Designed for mobile with a beautiful, intuitive interface that works everywhere</p>
+        <div class="feature-animation">
+          <div class="pulse-circle"></div>
+        </div>
+      </div> -->
+
+      <!-- Secure & Private -->
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Secure & Private</h3>
+        <p>Your financial data is encrypted and protected with bank-level security</p>
+        <div class="feature-animation">
+          <div class="security-shield">🛡️</div>
+        </div>
+      </div>
+
+      <!-- Lightning Fast -->
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Lightning Fast</h3>
+        <p>Split bills in seconds with our streamlined interface and smart shortcuts</p>
+        <div class="feature-animation">
+          <div class="lightning-bolt">⚡</div>
+        </div>
+      </div>
+
+      <!-- Smart Reminders -->
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Smart Reminders</h3>
+        <p>Gentle reminders that keep everyone on track without being annoying</p>
+        <div class="feature-animation">
+          <div class="notification-dot"></div>
+        </div>
+      </div>
+
+      <!-- Expense Analytics -->
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Expense Analytics</h3>
+        <p>Track spending patterns and get insights into your group expenses</p>
+        <div class="feature-animation">
+          <div class="chart-bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🌐 Multi-language Support -->
+      <div class="feature-card">
+        <div class="feature-icon">🌐</div>
+        <h3>Multi-language Support</h3>
+        <p>Use Udhar in your preferred language – Hindi, English, or more coming soon</p>
+        <div class="feature-animation">
+          <div class="language-globe">🌍</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- How It Works Section -->
     <section id="how-it-works" class="how-it-works">
@@ -416,7 +443,7 @@
     <div class="slider-wrapper">
       <div class="testimonial-slider" id="testimonialSlider">
         <div class="testimonial-card">
-          <p>"SplitEasy made our group trips so much easier. No more awkward conversations about money!"</p>
+          <p>"Udhar made our group trips so much easier. No more awkward conversations about money!"</p>
           <div class="testimonial-author">
             <div class="author-avatar">👩</div>
             <div class="author-info">
@@ -478,11 +505,12 @@
                     <input type="checkbox" id="faq1" class="accordion-toggle">
                     <div class="accordion-item">
                         <label for="faq1" class="accordion-header">
-                            <h4>How does the splitting work?</h4>
+                            <h4>Is Udhar free to use?
+</h4>
                             <span class="accordion-icon">+</span>
                         </label>
                         <div class="accordion-content">
-                            <p>Simply add an expense, select who was involved, and we'll automatically calculate how much each person owes. You can split equally or customize the amounts based on what each person ordered or used.</p>
+                            <p>Yes! You can use all core features for free forever.</p>
                         </div>
                     </div>
                     
@@ -493,40 +521,41 @@
                             <span class="accordion-icon">+</span>
                         </label>
                         <div class="accordion-content">
-                            <p>Absolutely! We use bank-level encryption to protect your data. Your financial information is never shared with third parties, and all transactions are secured with industry-standard protocols.</p>
+                            <p>Absolutely. All data is encrypted & never shared.</p>
                         </div>
                     </div>
                     
                     <input type="checkbox" id="faq3" class="accordion-toggle">
                     <div class="accordion-item">
                         <label for="faq3" class="accordion-header">
-                            <h4>Can I use SplitEasy offline?</h4>
+                            <h4>Can I use Udhar offline?</h4>
                             <span class="accordion-icon">+</span>
                         </label>
                         <div class="accordion-content">
-                            <p>Yes! The app works offline for basic functions like adding expenses and viewing your splits. Your data will automatically sync when you're back online.</p>
+                            <p>Yes! The app works offline for basic functions like adding expenses and viewing your splits</p>
                         </div>
                     </div>
                     
                     <input type="checkbox" id="faq4" class="accordion-toggle">
                     <div class="accordion-item">
                         <label for="faq4" class="accordion-header">
-                            <h4>How do I add friends to split expenses?</h4>
+                            <h4>Can I use it solo?
+</h4>
                             <span class="accordion-icon">+</span>
                         </label>
                         <div class="accordion-content">
-                            <p>You can add friends by their email address, phone number, or by sharing a unique group code. They'll receive an invitation to join your expense group and can start splitting bills immediately.</p>
+                            <p>Yes, you can track even your personal spending.</p>
                         </div>
                     </div>
                     
-                    <input type="checkbox" id="faq5" class="accordion-toggle">
+                    <!-- <input type="checkbox" id="faq5" class="accordion-toggle">
                     <div class="accordion-item">
                         <label for="faq5" class="accordion-header">
                             <h4>What payment methods are supported?</h4>
                             <span class="accordion-icon">+</span>
                         </label>
                         <div class="accordion-content">
-                            <p>SplitEasy integrates with popular payment apps like Venmo, PayPal, and Zelle. You can also track cash payments and bank transfers manually.</p>
+                            <p>Udhar integrates with popular payment apps like Venmo, PayPal, and Zelle. You can also track cash payments and bank transfers manually.</p>
                         </div>
                     </div>
                     
@@ -540,7 +569,7 @@
                             <p>Free accounts can have up to 10 people per group. Premium accounts have unlimited group sizes, perfect for large events, office teams, or extended family groups.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -564,14 +593,21 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>SplitEasy</h3>
-                    <p>Making bill splitting simple and stress-free for everyone.</p>
-                    <div class="social-links">
+                    <h3>Udhar</h3>
+                    <p>Making bill splitting simple and stress-free for Indians.</p>
+                    <!-- <div class="social-links">
                         <a href="#">📧</a>
                         <a href="#">📱</a>
                         <a href="#">🐦</a>
                         <a href="#">📘</a>
-                    </div>
+                    </div> -->
+                    <div class="social-links">
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" />
+   
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" />
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+</div>
+
                 </div>
                 <div class="footer-section">
                     <h4>Product</h4>
@@ -602,7 +638,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 SplitEasy. All rights reserved.</p>
+                <p>&copy; 2024 Udhar. All rights reserved.</p>
             </div>
         </div>
     </footer>
