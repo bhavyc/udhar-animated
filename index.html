@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SplitEasy - Split Bills, Stay Friends</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SplitEasy</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#use-cases">Use Cases</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#" class="nav-cta">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Split Bills</span>
+                    <span class="title-line">Stay Friends</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The easiest way to split bills with friends, family, and roommates. 
+                    Track expenses, settle debts, and keep everyone happy.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Start Splitting</button>
+                    <button class="btn btn-secondary">Watch Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Happy Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1M+</div>
+                        <div class="stat-label">Bills Split</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99%</div>
+                        <div class="stat-label">Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-interface">
+                            <div class="bill-item">
+                                <div class="bill-icon">🍕</div>
+                                <div class="bill-details">
+                                    <span class="bill-name">Pizza Night</span>
+                                    <span class="bill-amount">$45.00</span>
+                                </div>
+                                <div class="bill-status">✓</div>
+                            </div>
+                            <div class="bill-item">
+                                <div class="bill-icon">🏠</div>
+                                <div class="bill-details">
+                                    <span class="bill-name">Rent</span>
+                                    <span class="bill-amount">$1,200.00</span>
+                                </div>
+                                <div class="bill-status pending">⏳</div>
+                            </div>
+                            <div class="bill-item">
+                                <div class="bill-icon">⚡</div>
+                                <div class="bill-details">
+                                    <span class="bill-name">Utilities</span>
+                                    <span class="bill-amount">$85.00</span>
+                                </div>
+                                <div class="bill-status">✓</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-card card-1">💰 $234 saved</div>
+                    <div class="floating-card card-2">👥 5 friends</div>
+                    <div class="floating-card card-3">📊 Analytics</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose SplitEasy?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Smart Splitting</h3>
+                    <p>Automatically calculate who owes what with our intelligent splitting algorithm</p>
+                    <div class="feature-animation">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Mobile First</h3>
+                    <p>Designed for mobile with a beautiful, intuitive interface that works everywhere</p>
+                    <div class="feature-animation">
+                        <div class="pulse-circle"></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Private</h3>
+                    <p>Your financial data is encrypted and protected with bank-level security</p>
+                    <div class="feature-animation">
+                        <div class="security-shield">🛡️</div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Split bills in seconds with our streamlined interface and smart shortcuts</p>
+                    <div class="feature-animation">
+                        <div class="lightning-bolt">⚡</div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Smart Reminders</h3>
+                    <p>Gentle reminders that keep everyone on track without being annoying</p>
+                    <div class="feature-animation">
+                        <div class="notification-dot"></div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Expense Analytics</h3>
+                    <p>Track spending patterns and get insights into your group expenses</p>
+                    <div class="feature-animation">
+                        <div class="chart-bars">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-container">
+                <input type="radio" name="step" id="step1" checked>
+                <input type="radio" name="step" id="step2">
+                <input type="radio" name="step" id="step3">
+                
+                <div class="step-navigation">
+                    <label for="step1" class="step-nav">1</label>
+                    <label for="step2" class="step-nav">2</label>
+                    <label for="step3" class="step-nav">3</label>
+                </div>
+                
+                <div class="steps-wrapper">
+                    <div class="step-slide">
+                        <div class="step-content">
+                            <div class="step-number">1</div>
+                            <h3>Add Expenses</h3>
+                            <p>Quickly add any expense with just a few taps. Take photos of receipts for easy tracking.</p>
+                            <div class="step-visual">
+                                <div class="animated-receipt">📝</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-slide">
+                        <div class="step-content">
+                            <div class="step-number">2</div>
+                            <h3>Choose People</h3>
+                            <p>Select who was involved in the expense. Add friends easily with their email or phone number.</p>
+                            <div class="step-visual">
+                                <div class="animated-people">
+                                    <span class="person">👤</span>
+                                    <span class="person">👤</span>
+                                    <span class="person">👤</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-slide">
+                        <div class="step-content">
+                            <div class="step-number">3</div>
+                            <h3>Split & Settle</h3>
+                            <p>We calculate who owes what. Send reminders and settle up with integrated payment options.</p>
+                            <div class="step-visual">
+                                <div class="animated-checkmark">✅</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <h2 class="section-title">Perfect For Every Situation</h2>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">🏠</div>
+                    <h3>Roommates</h3>
+                    <p>Split rent, utilities, groceries, and household expenses effortlessly</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Rent</span>
+                        <span class="example-tag">Utilities</span>
+                        <span class="example-tag">Groceries</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">✈️</div>
+                    <h3>Travel Groups</h3>
+                    <p>Keep track of shared expenses during trips and vacations</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Hotels</span>
+                        <span class="example-tag">Meals</span>
+                        <span class="example-tag">Activities</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🍽️</div>
+                    <h3>Dining Out</h3>
+                    <p>Split restaurant bills, group orders, and food delivery costs</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Restaurants</span>
+                        <span class="example-tag">Delivery</span>
+                        <span class="example-tag">Parties</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🎉</div>
+                    <h3>Events & Parties</h3>
+                    <p>Organize group events and split costs fairly among participants</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Birthdays</span>
+                        <span class="example-tag">Weddings</span>
+                        <span class="example-tag">Celebrations</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">💼</div>
+                    <h3>Work Teams</h3>
+                    <p>Handle team lunches, office supplies, and work-related expenses</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Team Lunch</span>
+                        <span class="example-tag">Supplies</span>
+                        <span class="example-tag">Events</span>
+                    </div>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Family</h3>
+                    <p>Manage family expenses, shared purchases, and household budgets</p>
+                    <div class="use-case-examples">
+                        <span class="example-tag">Shopping</span>
+                        <span class="example-tag">Bills</span>
+                        <span class="example-tag">Activities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Users Say</h2>
+            <div class="testimonials-container">
+                <input type="radio" name="testimonial" id="testimonial1" checked>
+                <input type="radio" name="testimonial" id="testimonial2">
+                <input type="radio" name="testimonial" id="testimonial3">
+                <input type="radio" name="testimonial" id="testimonial4">
+                
+                <div class="testimonials-wrapper">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"SplitEasy made our group trips so much easier. No more awkward conversations about money!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👩</div>
+                                <div class="author-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <span>Travel Enthusiast</span>
+                                </div>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Perfect for roommates! We use it for rent, utilities, and groceries. Super convenient and fair."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👨</div>
+                                <div class="author-info">
+                                    <h4>Mike Chen</h4>
+                                    <span>College Student</span>
+                                </div>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Clean interface, works great. Finally, a bill-splitting app that doesn't confuse me!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👩</div>
+                                <div class="author-info">
+                                    <h4>Lisa Park</h4>
+                                    <span>Marketing Manager</span>
+                                </div>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <p>"Game changer for our office team lunches. Everyone knows exactly what they owe!"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">👨</div>
+                                <div class="author-info">
+                                    <h4>David Rodriguez</h4>
+                                    <span>Team Lead</span>
+                                </div>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <label for="testimonial1" class="dot"></label>
+                    <label for="testimonial2" class="dot"></label>
+                    <label for="testimonial3" class="dot"></label>
+                    <label for="testimonial4" class="dot"></label>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<!-- ✅ HTML -->
+<section id="testimonials" class="testimonials-section">
+  <div class="testimonial-container">
+    <h2 class="section-title">What Our Users Say</h2>
+
+    <div class="slider-wrapper">
+      <div class="testimonial-slider" id="testimonialSlider">
+        <div class="testimonial-card">
+          <p>"SplitEasy made our group trips so much easier. No more awkward conversations about money!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👩</div>
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <span>Travel Enthusiast</span>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Perfect for roommates! We use it for rent, utilities, and groceries. Super convenient and fair."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👨</div>
+            <div class="author-info">
+              <h4>Mike Chen</h4>
+              <span>College Student</span>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Clean interface, works great. Finally, a bill-splitting app that doesn't confuse me!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👩</div>
+            <div class="author-info">
+              <h4>Lisa Park</h4>
+              <span>Marketing Manager</span>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Game changer for our office team lunches. Everyone knows exactly what they owe!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">👨</div>
+            <div class="author-info">
+              <h4>David Rodriguez</h4>
+              <span>Team Lead</span>
+              <div class="rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-controls">
+      <button id="prevBtn" class="control-btn">←</button>
+      <button id="nextBtn" class="control-btn">→</button>
+    </div>
+  </div>
+</section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="accordion-container">
+                <div class="accordion">
+                    <input type="checkbox" id="faq1" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq1" class="accordion-header">
+                            <h4>How does the splitting work?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Simply add an expense, select who was involved, and we'll automatically calculate how much each person owes. You can split equally or customize the amounts based on what each person ordered or used.</p>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" id="faq2" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq2" class="accordion-header">
+                            <h4>Is my financial data safe and secure?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Absolutely! We use bank-level encryption to protect your data. Your financial information is never shared with third parties, and all transactions are secured with industry-standard protocols.</p>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" id="faq3" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq3" class="accordion-header">
+                            <h4>Can I use SplitEasy offline?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Yes! The app works offline for basic functions like adding expenses and viewing your splits. Your data will automatically sync when you're back online.</p>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" id="faq4" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq4" class="accordion-header">
+                            <h4>How do I add friends to split expenses?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>You can add friends by their email address, phone number, or by sharing a unique group code. They'll receive an invitation to join your expense group and can start splitting bills immediately.</p>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" id="faq5" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq5" class="accordion-header">
+                            <h4>What payment methods are supported?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>SplitEasy integrates with popular payment apps like Venmo, PayPal, and Zelle. You can also track cash payments and bank transfers manually.</p>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" id="faq6" class="accordion-toggle">
+                    <div class="accordion-item">
+                        <label for="faq6" class="accordion-header">
+                            <h4>Is there a limit to how many people can be in a group?</h4>
+                            <span class="accordion-icon">+</span>
+                        </label>
+                        <div class="accordion-content">
+                            <p>Free accounts can have up to 10 people per group. Premium accounts have unlimited group sizes, perfect for large events, office teams, or extended family groups.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Split Smarter?</h2>
+                <p>Join thousands of users who've made bill splitting effortless</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large">Start Splitting Now</button>
+                    <button class="btn btn-secondary btn-large">Download App</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SplitEasy</h3>
+                    <p>Making bill splitting simple and stress-free for everyone.</p>
+                    <div class="social-links">
+                        <a href="#">📧</a>
+                        <a href="#">📱</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📘</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SplitEasy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+ <script src="./script.js"></script>
+</html>
