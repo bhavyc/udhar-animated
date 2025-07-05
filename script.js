@@ -355,3 +355,22 @@
     updateSlidePosition();
   });
  
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    navToggle.addEventListener('change', () => {
+        navMenu.classList.toggle('open');
+    });
+});
+
+
+document.querySelectorAll('.nav-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    const navToggle = document.getElementById('nav-toggle');
+    if (navToggle.checked) {
+      navToggle.checked = false;
+    }
+  });
+});

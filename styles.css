@@ -115,6 +115,7 @@ body {
 
 /* Hero Section */
 .hero {
+    padding-top: 80px;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -1506,4 +1507,51 @@ body {
 
 .hero-visual{
     margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .nav-menu.open {
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Fix wrapping */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; /* 👈 prevent items wrapping */
+}
+
+/* Responsive menu toggle logic */
+@media (max-width: 768px) {
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background: white;
+    padding: 1rem 0;
+    display: none;
+    z-index: 999;
+  }
+
+  .nav-toggle:checked + .hamburger + .nav-menu {
+    display: flex; /* 👈 show menu on toggle */
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    height: 3px;
+    width: 25px;
+    background: #333;
+  }
 }
